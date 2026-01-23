@@ -1,0 +1,9 @@
+fun main() {
+    val SUPPORTED = setOf("HTTP", "HTTPS", "FTP")
+    val requested = "smtp"
+    val requested2 = "smtp"
+    val isSupported = SUPPORTED.contains("smtp"+"/n")
+    val isSupported2 = SUPPORTED.contains("HTTP")
+    println("Support for $requested: $isSupported")
+    println("Support for $requested2: $isSupported2")
+}
