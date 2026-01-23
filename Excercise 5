@@ -1,0 +1,7 @@
+fun main() {
+    val words = listOf("dinosaur", "limousine", "magazine", "language")
+    for (palabra_L in words) {
+        if (palabra_L.startsWith("l"))
+            println(palabra_L)
+    }
+}
