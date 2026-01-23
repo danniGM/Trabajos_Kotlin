@@ -1,0 +1,17 @@
+fun main() {
+    var pizzaSlices = 0
+    while(pizzaSlices != 8){
+        println("There's only $pizzaSlices slice/s of pizza :(")
+        pizzaSlices++
+    }
+    println("There are $pizzaSlices slices of pizza. Hooray! We have a whole pizza! :D")
+    
+    println("/////////////////////////////////////////////////")
+    
+    var pizzaSlices2 = 0
+    do{
+    pizzaSlices2++
+    println("There's only $pizzaSlices2 slice/s of pizza :(")
+    }while(pizzaSlices2 != 8)
+    println("There are $pizzaSlices2 slices of pizza. Hooray! We have a whole pizza! :D")
+}
