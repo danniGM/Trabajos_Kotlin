@@ -1,0 +1,12 @@
+fun main() {
+    val obj = "X"
+
+    when (obj) {
+        "A" -> println("Yes")
+        "B" -> println("No")
+        "X" -> println("Menu")
+        "Y" -> println("Nothing")
+        // Default statement
+        else -> println("There is no such button")     
+	}
+}
