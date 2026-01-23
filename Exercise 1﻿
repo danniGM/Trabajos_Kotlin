@@ -1,0 +1,11 @@
+import kotlin.random.Random
+
+fun main() {
+    val firstResult = Random.nextInt(6)
+    val secondResult = Random.nextInt(6)
+    if(firstResult == secondResult){
+        println("$firstResult y $secondResult son iguales U win :)")
+    }else{
+        println("$firstResult y $secondResult son diferentes U lose :(")
+    }
+}
