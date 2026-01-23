@@ -1,0 +1,5 @@
+fun main() {
+    val n=2;
+    val mapita=mapOf(1 to "Uno", 2 to "dos", 3 to "Tres")
+    println(mapita.getValue(n))
+}
